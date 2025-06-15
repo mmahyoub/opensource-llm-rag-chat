@@ -53,27 +53,25 @@ A lightweight, open-source Retrieval-Augmented Generation (RAG) chatbot scaffold
 
 ### Usage
 
-Once the app is running, open the provided local URL in your browser to chat with your data using the open-source LLM.
+Once running, open the provided local URL in your browser to chat with your data using the open-source LLM.
 
-If you want to recreate the index, test the vectorstore, or optimize the RAG pipeline, the following commands are useful:
+If you would like to recreate the index, test the vectorestore, and or optimize the rag, teh follwing commadands are useful 
 
-1. **Recreate the index**
-   ```sh
-   uv run -m src.create_vectorstore
-   ```
+1. create the index 
+```sh
+uv run -m src.create_vectorstore
+```
 
-2. **Test the vectorstore**
-   ```sh
-   uv run -m src.test_vectorstore
-   ```
+2. test vectorstore 
+```sh
+uv run -m src.test_vectorstore
+```
 
-3. **Test the RAG chain**
-   ```sh
-   uv run -m src.test_rag
-   ```
-
+3. test rag chain 
+```sh
+uv run -m src.test_rag
+```
 ---
-
 ## Containerization
 For deployment on a server or cloud environment.
 
@@ -84,7 +82,11 @@ For deployment on a server or cloud environment.
 
 2. **Run the Docker Container**
     ```sh
+    # GPU
     docker run --gpus all -p 8000:8000 nurseguideapp
+
+    # No GPU
+    docker run -p 8000:8000 nurseguideapp
     ```
 
 ---
