@@ -20,6 +20,15 @@ A lightweight, open-source Retrieval-Augmented Generation (RAG) chatbot scaffold
 - **uv**: [Install Instructions](https://docs.astral.sh/uv/#installation)
 - **Docker**: [Get Started](https://www.docker.com/get-started/)
 
+## Models USED
+
+This project uses the following models by default:
+
+- **LLM:** `llama3.2:latest`
+- **Embedding Model:** `nomic-embed-text`
+
+You can explore and use many other models available through [Ollama's model library](https://ollama.com/search).
+
 ---
 
 ## Local Setup
