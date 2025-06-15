@@ -1,0 +1,14 @@
+[project]
+name = "opensource-llm-chat"
+version = "0.1.0"
+description = "Chat with your data using open-source technology."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu==1.11.0",
+    "langchain==0.3.25",
+    "langchain-community==0.3.24",
+    "langchain-ollama==0.3.3",
+    "pypdf==5.5.0",
+    "streamlit==1.45.1",
+]
