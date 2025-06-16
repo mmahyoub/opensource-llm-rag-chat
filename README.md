@@ -64,19 +64,19 @@ You can explore and use many other models available through [Ollama's model libr
 
 Once running, open the provided local URL in your browser to chat with your data using the open-source LLM.
 
-If you would like to recreate the index, test the vectorestore, and or optimize the rag, teh follwing commadands are useful 
+If you would like to recreate the index, test the vectorstore, and/or optimize the RAG, the following commands are useful.
 
-1. create the index 
+1. Create the index
 ```sh
 uv run -m src.create_vectorstore
 ```
 
-2. test vectorstore 
+2. Test vectorstore
 ```sh
 uv run -m src.test_vectorstore
 ```
 
-3. test rag chain 
+3. Test RAG chain
 ```sh
 uv run -m src.test_rag
 ```
